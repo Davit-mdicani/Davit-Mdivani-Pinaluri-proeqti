@@ -1,0 +1,118 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f0f9f0;
+  color: #2c3e50;
+}
+
+/* ნავიგაცია */
+nav ul {
+  display: flex;
+  justify-content: center;
+  background: #2ecc71;
+  padding: 15px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+  background: #27ae60;
+  border-radius: 5px;
+}
+
+/* Hero სექცია */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: url('https://images.unsplash.com/photo-forest') no-repeat center/cover;
+  color:#2ecc71;
+}
+
+.hero h1::after {
+  content: " 🌎";
+  color: lightgreen;
+}
+
+form {
+  text-align: center;
+  padding: 20px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #2ecc71;
+  border-radius: 4px;
+  transition: border 0.3s ease;
+}
+
+input[type="email"]:focus {
+  border-color: #27ae60;
+}
+
+button {
+  padding: 10px 20px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* სოციალური აიქონები */
+.icons {
+  text-align: center;
+  font-size: 24px;
+}
+
+.icons a {
+  margin: 0 10px;
+  color: #2ecc71;
+  transition: color 0.3s ease;
+}
+
+.icons a:hover {
+  color: #145a32;
+}
+
+/* რისპონსივ დიზაინი */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  .hero {
+    padding: 40px 10px;
+  }
+}
+
+.main {
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #2ecc71;
+  color: #334155;
+  margin-top: 40px;
+}
+
+.h2 {
+  text-align: center;
+  color: #2ecc71;
+  margin-top: 20px;
+}

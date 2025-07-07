@@ -1,1 +1,0 @@
-# Davit-Mdivani-Pinaluri-proeqti
