@@ -1,3 +1,7 @@
+* { margin:0; padding:0 }
+
+
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -76,6 +80,7 @@ button:hover {
 .icons {
   text-align: center;
   font-size: 24px;
+ 
 }
 
 .icons a {
@@ -115,4 +120,36 @@ button:hover {
   text-align: center;
   color: #2ecc71;
   margin-top: 20px;
+}
+
+.text-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.text {
+  margin: 0%;
+}
+
+/* .about-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-align: center;
+} */
+
+.logos {
+   width: 50px;
+ height: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.logo {
+  color: blue;
 }
